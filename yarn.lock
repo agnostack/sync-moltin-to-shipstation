@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@agnostack/shipstation-request@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@agnostack/shipstation-request/-/shipstation-request-1.0.0.tgz#81a601225eac25315b9b59d14f7ec081f586fe01"
-  integrity sha512-i/Xw3AIxovzKfIvK9ZbrciDywYIE1ArJXTrpgnWXi5grhuz8wkrie8LZAT20lr+5/OG9QaoX5AVfivjGpYA+GA==
+"@agnostack/shipstation-request@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@agnostack/shipstation-request/-/shipstation-request-1.0.1.tgz#060a228e0af738090758a4f5c3f9cf690316b766"
+  integrity sha512-vVh46hiVhNkHuDa6DB4D9orbUJpK8X76GOsjyksYeUBRhC/jgoAQEUlzAPeRKv2pv8x/aOi4Bm59K+5Ce7/FSQ==
   dependencies:
     cross-fetch "3.0.4"
     js-base64 "2.5.1"
