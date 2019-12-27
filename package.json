@@ -2,7 +2,7 @@
   "name": "@agnostack/sync-moltin-to-shipstation",
   "version": "0.0.0-semantic-release",
   "author": "Rob Bowers <rob@uniquelyparticular.com> (https://agnostack.com)",
-  "owner": "Particular.",
+  "owner": "agnoStack",
   "description": "Please contact agnoStack. via info@uniquelyparticular.com for any questions",
   "keywords": [
     "moltin",
@@ -13,8 +13,9 @@
     "ecommerce",
     "integration",
     "aws",
-    "email",
-    "agnostack"
+    "agnostack",
+    "particular",
+    "particular."
   ],
   "license": "MIT",
   "homepage": "https://github.com/agnostack/sync-moltin-to-shipstation#readme",
