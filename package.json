@@ -1,0 +1,57 @@
+{
+  "name": "@agnostack/sync-moltin-to-shipstation",
+  "version": "0.0.0-semantic-release",
+  "author": "Rob Bowers <rob@uniquelyparticular.com> (https://agnostack.com)",
+  "owner": "Particular.",
+  "description": "Please contact agnoStack. via info@uniquelyparticular.com for any questions",
+  "keywords": [
+    "moltin",
+    "shipstation",
+    "webhooks",
+    "microservices",
+    "shipping",
+    "ecommerce",
+    "integration",
+    "aws",
+    "email",
+    "agnostack"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/agnostack/sync-moltin-to-shipstation#readme",
+  "repository": "github:agnostack/sync-moltin-to-shipstation",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "precommit": "pretty-quick --staged",
+    "start": "micro",
+    "clean-install": "yarn install --force",
+    "test": "jest --passWithNoTests",
+    "semantic-release": "semantic-release"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "@agnostack/shipstation-request": "1.0.0",
+    "@moltin/request": "2.0.2",
+    "aws-sdk": "2.596.0",
+    "micro": "9.3.4",
+    "micro-cors": "0.1.1",
+    "moment-timezone": "^0.5.27",
+    "nodemailer": "6.4.2"
+  },
+  "devDependencies": {
+    "husky": "2.7.0",
+    "jest": "24.9.0",
+    "micro-dev": "3.0.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "1.11.1",
+    "semantic-release": "15.14.0",
+    "ts-jest": "24.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
