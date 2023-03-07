@@ -37,7 +37,7 @@
   "dependencies": {
     "@agnostack/shipstation-request": "1.0.1",
     "@moltin/request": "2.0.2",
-    "aws-sdk": "2.1328.0",
+    "aws-sdk": "2.1329.0",
     "micro": "9.4.1",
     "micro-cors": "0.1.1",
     "moment-timezone": "^0.5.27",
