@@ -41,7 +41,7 @@
     "micro": "9.4.1",
     "micro-cors": "0.1.1",
     "moment-timezone": "^0.5.27",
-    "nodemailer": "6.9.2"
+    "nodemailer": "6.9.3"
   },
   "devDependencies": {
     "husky": "2.7.0",
